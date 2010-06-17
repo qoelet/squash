@@ -1,0 +1,50 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+#container {
+    width:580px;
+    height:450px;
+    background-image: url('http://localhost:8080/static/squashbg.png');
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+#urlfield {
+    position:absolute;
+    top:270px;
+    left:50px;
+    width:480px;
+    height:50px;
+    border:0;
+    font-size:1.4em;
+}
+
+#button {
+    position:absolute;
+    top:350px;
+    left:50px;
+}
+
+#result {
+        font-weight: bold;
+        font-size: 1.8em;
+        color:#f56;
+        position:absolute;
+        top:450px;
+        right:50px;
+}
+#footer {
+        position:absolute;
+        bottom:0px;
+        left:20px;
+        font-size:0.8em;
+        color:#666;
+}
+
+#footer a:link {color:#f45;text-decoration:none;font-weight:bold;}
+#footer a:visited {color:#f23;text-decoration:none;font-weight:bold;}
+#footer a:hover {color:#333;text-decoration:none;font-weight:bold;}
+#footer a:active {color:#f45;text-decoration:none;font-weight:bold;}
